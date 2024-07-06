@@ -40,6 +40,9 @@ h2{
     width: 90vw;
     height: 90vw;
     margin: 10vw ;
+    /* give image pop and gloss*/
+    filter: drop-shadow(0 0 10px #aa00ff);
+    
 }
 @keyframes spin {
     
