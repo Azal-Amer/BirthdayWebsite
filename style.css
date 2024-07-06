@@ -1,0 +1,51 @@
+body {
+    background-color: #f0f0f0;
+    text-align: center;
+    /* make font comic sans */
+    font-family: "Comic Sans MS", "Comic Sans", cursive;
+    background-image: url('wp12526914-jujutsu-kaisen-season-2-wallpapers.jpg');
+    background-size: cover;
+    background-repeat: repeat-y;
+    background-attachment:local;
+    background-position: center;
+}
+h1,h2 {
+    color: #ff6f00;
+    font-size: 48px;
+    margin-top: 50px;
+    font: comic;
+    /* give drop shadow and black thick outline
+     */
+
+    text-shadow: 2px 2px 2px #000000;
+    -webkit-text-stroke-width: 1px;
+    -webkit-text-stroke-color: black;
+    /* around the words, not grow inside
+     */
+}
+h2{
+    font-size: 10px;
+    margin-top: 20px;
+    color: #ff6f00;
+    /* surround with rectangle fill white */
+    border: 2px solid #ff6f00;
+    background-color: black;
+    padding: 10px;
+    border-radius: 10px;
+    -webkit-text-stroke-width: 0px;
+    -webkit-text-stroke-color: black;
+}
+.spinning-image {
+    animation: spin 2s linear infinite;
+    width: 90vw;
+    height: 90vw;
+    margin: 10vw ;
+}
+@keyframes spin {
+    
+
+    100% { transform: rotate(360deg); 
+        transform-origin:center;}
+}
+
+/* credit fireworks https://medium.com/front-end-weekly/how-to-add-some-fireworks-to-your-website-18b594b06cca */
